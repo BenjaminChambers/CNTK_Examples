@@ -34,6 +34,7 @@ namespace ComputationalExamples
 
             Not.RunTest(1000, device); Evaluate("Not");
             And.RunTest(1000, device); Evaluate("And");
+            mAdd.RunTest(1000, device); Evaluate("Multiply-Add");
         }
     }
 }

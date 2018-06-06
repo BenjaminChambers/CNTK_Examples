@@ -67,8 +67,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests\And.cs" />
-    <Compile Include="Tests\Not.cs" />
+    <Compile Include="Computation\mAdd.cs" />
+    <Compile Include="Logical Operations\And.cs" />
+    <Compile Include="Logical Operations\Not.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
