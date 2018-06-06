@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CNTK;
 
-namespace ComputationalExamples
+namespace SmallExamples
 {
     public class mAdd
     {
