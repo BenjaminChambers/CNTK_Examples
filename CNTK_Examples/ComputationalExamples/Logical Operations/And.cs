@@ -11,7 +11,7 @@ namespace ComputationalExamples
     {
         public static void RunTest(int SampleSize, DeviceDescriptor device)
         {
-            // Create a function that converts 0 to 1 and 1 to 0
+            // Create a function that performs a logical AND operation. 0 is false and 1 is true
             var X = Variable.InputVariable(new int[] { 1 }, DataType.Float, "X");
             var Y = Variable.InputVariable(new int[] { 1 }, DataType.Float, "Y");
 
